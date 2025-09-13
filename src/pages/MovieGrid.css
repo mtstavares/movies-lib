@@ -91,3 +91,23 @@
 @keyframes spin {
   to { transform: rotate(360deg); }
 }
+
+
+@media (max-width: 452px) {
+  #navbar h2 {
+    display: none;
+  }
+
+  #navbar div{
+    width: 100%;
+  }
+
+  #navbar form{
+    justify-content: center;
+  }
+
+  .container .title{
+    font-size: 2rem;
+  }
+
+}

@@ -62,7 +62,6 @@
     margin-top: 5rem;
 }
 
-
 .loader {
   width: 48px;
   height: 48px;
@@ -79,8 +78,3 @@
   }
 }
 
-.error {
-  color: #ff6b6b;
-  text-align: center;
-  margin-top: 1rem;
-}
