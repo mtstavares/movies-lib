@@ -1,12 +1,26 @@
-# React + Vite
+# 🎬 MoviesLib — Biblioteca de Filmes com React + Vite (TMDB)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Uma aplicação didática para listar, buscar e visualizar detalhes de filmes usando a **API do The Movie Database (TMDB)**.  
+Feita com **React + Vite**, foco em **boas práticas**, **responsividade**, **acessibilidade** e **código limpo**.
 
-Currently, two official plugins are available:
+> 💡 Projeto pensado para aprendizado: o código foi feito seguindo padrões para tratamento de erros, loadings, encode de query e CSS responsivo.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Funcionalidades
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Top Rated**: lista dos filmes mais bem avaliados (endpoint `/movie/top_rated`).
+- **Busca**: pesquisa de filmes por texto (`/search/movie`) com query codificada.
+- **Detalhes**: página do filme com poster, sinopse, orçamento, receita e duração.
+- **Card reutilizável**: componente `MovieCard` para exibir itens no grid.
+- **Responsivo**: grid que quebra em 3→2→1 colunas conforme o tamanho da tela.
+- **Estados de UI**: loaders, mensagens de erros e “nenhum resultado”.
+
+---
+
+## 🧱 Stack
+
+- **React 18** + **Vite**
+- **React Router DOM**
+- **React Icons**
+- **Fetch API**
